@@ -1,0 +1,11 @@
+
+version: 2
+
+sources:
+  - name: work
+    database: dbt_test
+    schema: work
+    tables:
+      - name: customers
+      - name: orders
+      - name: products
